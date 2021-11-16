@@ -1,0 +1,50 @@
+div {
+    margin: 5px;
+    border: 1px solid #bebebe;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-content >> div {
+    padding: 20px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    } 
